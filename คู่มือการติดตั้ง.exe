@@ -1,0 +1,11 @@
+คู่มือการติดตั้งแล้วใช้งาน
+1.ติดตั้งสภาพแวดล้อมใน ไฟล์ composer.json
+     ใช้คำสั่ง composer install
+2.ติดตั้งสภาพแวดล้อมใน ไฟล์ package.json
+     ใช้คำสั่ง npm install
+3.Coppy file .env.example
+4.วางไฟล์ .env.example ไว้นอกสุดของ folder และเปลี่ยนชื่อเป็น .env
+5.เปิด Terminal แล้วพิมคำสั่ง php artisan key:generator
+6.เปลี่ยนชื่อ Database ใยไฟล์ .env ให้ตรงกับชื่อ Database ใน phpmyadmin
+7.เปิด Terminal แล้วพิมคำสั่ง php artisan migrate
+8.เปิดโปรเจ็ค โดยใช้คำสั่ง php artisan serve
